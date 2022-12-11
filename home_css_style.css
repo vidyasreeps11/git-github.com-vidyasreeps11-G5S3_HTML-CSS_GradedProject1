@@ -1,0 +1,190 @@
+body{
+    background-color:white;
+    overflow:auto;
+    white-space: nowrap;
+    width: 100%;
+    
+}
+.div1{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: right;
+    padding-bottom: 25px;
+
+
+}
+
+.img_style1{
+    padding-top: 10px;
+    background:none;
+    width: 50px;
+    height: 90px;
+}
+
+.navigation_menu{
+    width: 100%;
+    height: 30px;
+    background-color: darkcyan;
+    padding-top: 5px;
+    font-size: 20px;
+    position: sticky;
+    padding-bottom: 0px;
+}
+
+.navigation_menu >a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 0.7em;
+}
+
+ .navigation_menu>a:hover{
+    background-color: antiquewhite;
+    color: darkgreen; 
+}
+
+.med_droplist{
+    position: absolute;
+    background-color: lightgray;
+    list-style: none;
+    color: blue;
+    margin-left: 90px;
+    display: none;
+    padding-top: 0px;
+    
+}
+
+.med_droplist>li{
+    padding-bottom: 3px;
+    font-size: 18px;
+}
+.med_droplist>li>a{text-decoration: none;}
+
+#medicines:hover + .med_droplist{display: block;}
+
+.med_droplist>li>a:hover{
+    background-color: aquamarine;
+}
+
+.health_droplist{
+    position: absolute;
+    background-color: lightgray;
+    list-style: none;
+    color: blue;
+    margin-left: 250px;
+    display: none;
+    z-index: 1;
+}
+
+.health_droplist>li{
+    padding-bottom: 3px;
+    font-size: 18px;
+}
+.health_droplist>li>a{text-decoration: none;}
+
+#health:hover + .health_droplist{display: block;}
+
+.image_box{
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    border: 2px solid steelblue;
+    animation-name: ImageLoop;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ImageLoop {
+
+    0%{background-image: url("images/ani1.jpg"); 
+        background-size: 100% 595px;
+        background-repeat: no-repeat;}
+    20%{background-image: url("images/ani2.png");
+        background-size: 100% 595px;
+        background-repeat: no-repeat;}
+    40%{background-image: url("images/ani3.jpg");
+        background-size: 100% 595px;
+        background-repeat: no-repeat;}
+    60%{background-image: url("images/ani4.jpg");
+        background-size: 100% 595px;
+        background-repeat: no-repeat;}
+    80%{background-image: url("images/ani5.jpg");
+        background-size: 100% 595px;
+        background-repeat: no-repeat;}
+    100%{background-image: url("images/ani1.jpg");
+        background-size: 100% 595px;
+        background-repeat: no-repeat;}
+        
+}
+
+.session{
+    width: 100%;
+    height: 350px;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    flex-direction: column;
+}
+
+.cc_div{
+    display: inline-block;
+    padding-left: 10px;
+    width: 300px;
+    height: 320px;
+    border: 1px solid grey;
+    font-size: 15px;
+    background-color: lightgoldenrodyellow;
+    white-space: nowrap; 
+    overflow: auto;
+    
+}
+
+.add_cart_button{
+    width: 280px;
+    height: 30px;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.add_cart_button:hover{
+    background-color: rgb(250, 234, 230) ;
+    border-color: rgb(0, 255, 76);
+}
+
+.session_img{
+    
+    width: 280px;
+    height: 200px;
+}
+
+.session_img:hover{
+    width: 290px;
+    height: 210px;
+}
+.dc_div{
+    display: inline-block;
+    padding-left: 10px;
+    width: 300px;
+    height: 320px;
+    border: 1px solid grey;
+    font-size: 15px;
+    background-color: lightgoldenrodyellow;
+    
+}
+
+footer{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    background-color: aquamarine;
+    color: black;
+    
+}

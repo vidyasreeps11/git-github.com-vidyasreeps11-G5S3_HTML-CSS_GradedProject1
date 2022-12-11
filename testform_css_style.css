@@ -1,0 +1,48 @@
+body{
+    background-image: url("images/lab-test.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    
+}
+.div1{
+    text-align: center;
+    font-size: 25px;
+    width: 600px;
+    font-weight: bold;
+    color: purple;
+    display: inline-block;
+    
+}
+.form_div{
+    box-shadow: 2px;
+    border: solid 2px grey;
+    width: 600px;
+    padding-left: 5px;
+    box-shadow: 3px 3px grey;
+    margin: 20px;
+}
+.inner_div{
+    text-align: center;
+}
+.button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    background-color: slateblue;
+    color: white;
+    
+}   
+.input_style{
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ 
+}
+
+table{
+    border-spacing: 10px;
+    border-collapse: collapse;
+}

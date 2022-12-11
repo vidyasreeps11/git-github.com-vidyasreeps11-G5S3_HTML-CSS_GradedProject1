@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab Test Form</title>
+    <link rel="stylesheet" type="text/css" href="testform_css_style.css">
+</head>
+<body>
+    <div class="div1">Lab Test Form</div>
+   <div class="form_div">
+    <form>
+        <table>
+            <tr><td><h3>Patient Contact Details</h3></td></tr>
+            <tr><td><input class="input_style" type="text" placeholder="Full Name" required></td><td><input class="input_style" type="text" placeholder="Patient Id if exists"></td></tr>
+            <tr><td><input class="input_style" type="text" placeholder="Contact Number" required></td><td><input class="input_style" type="text" placeholder="Email Id" required></td></tr>
+            <tr><td><h3>Address</h3></td></tr>
+            <tr><td><input class="input_style" type="text" placeholder="House Number/Name" required></td><td><input class="input_style" type="text" placeholder="Street" required></td></tr>
+            <tr><td><input class="input_style" type="text" placeholder="Area" required></td></tr>
+            <tr><td><h4>District</h4></td></tr>
+            <tr><td><select name="district" id="district">
+                <option>Choose</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Mysore">Mysore</option>
+                <option value="Chickmagalur">Chickmagalur</option>
+                <option value="Dharwad">Dharwad</option>
+                <option value="Gulbarga">Gulbarga</option>
+                <option value="Hassan">Hassan</option>
+                <option value="Kolar">Kolar</option>
+             </td></tr>
+             <tr><td><h3>Choose a Test Type</h3></td></tr>
+             <tr><td><font style="color: brown;">Check atleast one box without fail</font></td></tr>
+             <tr><td><input type="checkbox" name="cbc"><label for="cbc">CBC</label></td></tr>
+             <tr><td><input type="checkbox" id="complete_urine"><label for="complete_urine">Complete Urine</label></td></tr>
+             <tr><td><input type="checkbox" id="lipid_profile"><label for="lipid_profile">Lipid Profile</label></td></tr>
+             <tr><td><input type="checkbox" id="thyroid"><label for="thyroid">Thyroid Stimulating Hormone(TSH)</label></td></tr>
+             <tr><td><input type="checkbox" id="glucose"><label for="glucose">Glucose Test</label></td></tr>
+             <tr><td><h3>Do you want to have a hard copy of the report?</h3></td></tr>
+             <tr><td><input type="radio" id="yes" name="yes_ no"><label for="yes">Yes</label></td></tr>
+              <tr><td><input type="radio" id="no" name="yes_ no"><label for="no">No</label></td></tr> 
+              <tr><td><h3>Select you comfortable Date and Time</h3></td></tr> 
+              <tr><td>Date : &nbsp<input type="date"></td></tr>
+              <tr><td>Time : &nbsp;<input type="time"></td></tr>
+              <tr><td></td></tr><tr><td></td></tr><tr><td></td></tr>
+        </table>
+        <div class="inner_div">
+            <input type="submit" value="Submit" class="button"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Reset" class="button"></div>
+        <br>
+    </form>
+    
+</div> 
+
+</body>
+</html>
